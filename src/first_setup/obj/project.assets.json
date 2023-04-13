@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aky\\Documents\\Programs\\dotnet\\C sharp.csproj",
+      "projectUniqueName": "C:\\Users\\aky\\Documents\\Programs\\dotnet\\src\\first_setup\\C sharp.csproj",
       "projectName": "C sharp",
-      "projectPath": "C:\\Users\\aky\\Documents\\Programs\\dotnet\\C sharp.csproj",
+      "projectPath": "C:\\Users\\aky\\Documents\\Programs\\dotnet\\src\\first_setup\\C sharp.csproj",
       "packagesPath": "C:\\Users\\aky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aky\\Documents\\Programs\\dotnet\\obj\\",
+      "outputPath": "C:\\Users\\aky\\Documents\\Programs\\dotnet\\src\\first_setup\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aky\\AppData\\Roaming\\NuGet\\NuGet.Config"
