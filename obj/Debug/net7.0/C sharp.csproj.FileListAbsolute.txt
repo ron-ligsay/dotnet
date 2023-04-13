@@ -1,0 +1,15 @@
+C:\Users\aky\Documents\Programs\dotnet\bin\Debug\net7.0\C sharp.exe
+C:\Users\aky\Documents\Programs\dotnet\bin\Debug\net7.0\C sharp.deps.json
+C:\Users\aky\Documents\Programs\dotnet\bin\Debug\net7.0\C sharp.runtimeconfig.json
+C:\Users\aky\Documents\Programs\dotnet\bin\Debug\net7.0\C sharp.dll
+C:\Users\aky\Documents\Programs\dotnet\bin\Debug\net7.0\C sharp.pdb
+C:\Users\aky\Documents\Programs\dotnet\obj\Debug\net7.0\C sharp.csproj.AssemblyReference.cache
+C:\Users\aky\Documents\Programs\dotnet\obj\Debug\net7.0\C sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aky\Documents\Programs\dotnet\obj\Debug\net7.0\C sharp.AssemblyInfoInputs.cache
+C:\Users\aky\Documents\Programs\dotnet\obj\Debug\net7.0\C sharp.AssemblyInfo.cs
+C:\Users\aky\Documents\Programs\dotnet\obj\Debug\net7.0\C sharp.csproj.CoreCompileInputs.cache
+C:\Users\aky\Documents\Programs\dotnet\obj\Debug\net7.0\C sharp.dll
+C:\Users\aky\Documents\Programs\dotnet\obj\Debug\net7.0\refint\C sharp.dll
+C:\Users\aky\Documents\Programs\dotnet\obj\Debug\net7.0\C sharp.pdb
+C:\Users\aky\Documents\Programs\dotnet\obj\Debug\net7.0\C sharp.genruntimeconfig.cache
+C:\Users\aky\Documents\Programs\dotnet\obj\Debug\net7.0\ref\C sharp.dll

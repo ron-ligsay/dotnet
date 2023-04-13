@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rHW/er4U6WTIjp3PLfIdXOgYZbV5iIXcVbwupAvy5z8m+5TZiobzlnrThuIsa5p2CxJV+B7P/QiORJSD2iX3XA==",
+  "dgSpecHash": "QKGpCIINfOyPMrp+UAbVPBAEEa56wViuIUnVNHIvMPdNePGk1Qh8fhd7wKgEeQZ6wmP9nDwhsftTh85IDs2Isw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aky\\Documents\\Programs\\C sharp\\C sharp.csproj",
+  "projectFilePath": "C:\\Users\\aky\\Documents\\Programs\\dotnet\\C sharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
