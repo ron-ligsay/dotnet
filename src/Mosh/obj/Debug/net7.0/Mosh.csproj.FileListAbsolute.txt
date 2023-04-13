@@ -1,0 +1,15 @@
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\bin\Debug\net7.0\Mosh.exe
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\bin\Debug\net7.0\Mosh.deps.json
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\bin\Debug\net7.0\Mosh.runtimeconfig.json
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\bin\Debug\net7.0\Mosh.dll
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\bin\Debug\net7.0\Mosh.pdb
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\obj\Debug\net7.0\Mosh.csproj.AssemblyReference.cache
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\obj\Debug\net7.0\Mosh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\obj\Debug\net7.0\Mosh.AssemblyInfoInputs.cache
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\obj\Debug\net7.0\Mosh.AssemblyInfo.cs
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\obj\Debug\net7.0\Mosh.csproj.CoreCompileInputs.cache
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\obj\Debug\net7.0\Mosh.dll
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\obj\Debug\net7.0\refint\Mosh.dll
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\obj\Debug\net7.0\Mosh.pdb
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\obj\Debug\net7.0\Mosh.genruntimeconfig.cache
+C:\Users\aky\Documents\Programs\dotnet\src\Mosh\obj\Debug\net7.0\ref\Mosh.dll
