@@ -46,8 +46,22 @@ namespace Mosh
                 byte number4 = 255;
                 number4 = number4 + 1;
             } // will not happen
-             
 
+            // Scope
+            {
+                byte a = 1;
+                {
+                    byte b = 2;
+                    {
+                        byte c = 3;
+                        // a = 1 is accesible anywhere in the code block
+                        // b = 2 is accesible anywhere inside a 
+                        // c = 3 is accesible only here
+                    }
+                }
+            }
+
+            
         }
     }
 }
