@@ -19,3 +19,8 @@ then run... will be a https
 adding a hotreload
 at .vscode launch.json
 change prelaunch build to watch
+
+
+dotnet h
+will give you commands
+manage and manipulate your dotnet project without editors
