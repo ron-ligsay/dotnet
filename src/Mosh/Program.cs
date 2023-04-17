@@ -62,17 +62,17 @@ namespace Mosh
                 }
             }
 
-            Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
-            byte MinValue = 0;
-            byte MaxValue = 255;
-            Console.WriteLine("{0} {1}", MinValue, MaxValue);
+            Console.WriteLine("Byte has a {0} to {1}", byte.MinValue, byte.MaxValue);
+            byte MinValue = 5;
+            byte MaxValue = 55;
+            Console.WriteLine("My Byte has a {0} to {1}", MinValue, MaxValue);
 
 
-            byte number5 = 1;
+            var number5 = 1; // var is a type that is inferred by the compiler // It detects what  kind of variable it is
             int count = 10;
             float totalPrice = 20.93f;
             char character = 'A';
-            String firstName = "Mosh";
+            string firstName = "Mosh";
             bool isWorking = false;
 
             Console.WriteLine(number5);
@@ -81,7 +81,6 @@ namespace Mosh
             Console.WriteLine(character);
             Console.WriteLine(firstName);
             Console.WriteLine(isWorking);
-            
         }
     }
 }
