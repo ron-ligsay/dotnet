@@ -81,6 +81,12 @@ namespace Mosh
             Console.WriteLine(character);
             Console.WriteLine(firstName);
             Console.WriteLine(isWorking);
+
+            // Constants
+
+            const float Pi = 3.14f;
+            Pi = 1; // Error because it is a constant
+            
         }
     }
 }
