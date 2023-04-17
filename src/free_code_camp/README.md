@@ -51,3 +51,11 @@ Tools
 * Can be combined with popular fron-end services
 * React, Anuglar, Vue
 * Mobile Apps
+
+## Course Outline
+* Is this course right for you?
+* What is ASP.NET Core?
+* Models Views and  Controllers (MVC)
+* Database Setup
+* Registration, Login and Security
+* Search the database
