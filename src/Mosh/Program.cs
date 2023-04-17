@@ -86,7 +86,30 @@ namespace Mosh
 
             const float Pi = 3.14f;
             Pi = 1; // Error because it is a constant
+
+            // Implicit Type  Conversion
+            byte b = 1;       //                            00000001
+            int i = b;        // 00000000 00000000 00000000 00000001
+
+            // Explicit Type Conversion
+            int i = 1;
+            byte b = i; // Error because byte can only hold 0-255 // wont compile
+            // byte has a range of 0-255 // Data will be lost // It has to be explicit
+            byte b = (byte)i; // Casting
+
+            // another example
+            float f = 1.0f;
+            int i = (int)f; // 1
+
+            // Non-compatible types
+            string s = "1";
+            int i = (int)s; // not compatible
+            int i = Convert.ToInt32(s); // using convert
+            int j = int.Parse(s); // using parse, it tries to convert it
+
+            // Convert
             
+
         }
     }
 }
