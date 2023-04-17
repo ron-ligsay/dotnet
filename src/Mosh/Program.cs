@@ -40,6 +40,13 @@ namespace Mosh
             byte number3 = 255; //byte can only hold 0-255
             number3 = number3 + 1; // 0 because it overflows
 
+            // Using Checked
+            checked // Like try catch or exception
+            {
+                byte number4 = 255;
+                number4 = number4 + 1;
+            } // will not happen
+             
 
         }
     }
