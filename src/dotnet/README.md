@@ -13,3 +13,11 @@ this list the available templates
 # dotnet new gitignore
 dotnet new gitignore
 
+# dotnet new console -f net7.0 --name "TestUI"
+dotnet new console -f net7.0 --name "TestUI"
+
+# dotnet new classlib -f net7.0 --name "HelperLib"
+
+
+# dotnet sln ConfSln.sln add TestUI/TestUI.csproj
+# dotnet sln ConfSln.sln add HelperLib/HelperLib.csproj

@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUI", "TestUI\TestUI.csproj", "{F4BBB56C-BC93-4D57-8BF1-AD90B0772475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperLib", "HelperLib\HelperLib.csproj", "{264B9F0E-00DE-49F6-8390-54B27B331C13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4BBB56C-BC93-4D57-8BF1-AD90B0772475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BBB56C-BC93-4D57-8BF1-AD90B0772475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BBB56C-BC93-4D57-8BF1-AD90B0772475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BBB56C-BC93-4D57-8BF1-AD90B0772475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264B9F0E-00DE-49F6-8390-54B27B331C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264B9F0E-00DE-49F6-8390-54B27B331C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264B9F0E-00DE-49F6-8390-54B27B331C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264B9F0E-00DE-49F6-8390-54B27B331C13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
