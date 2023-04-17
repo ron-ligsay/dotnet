@@ -30,3 +30,8 @@ dotnet add TestUI/TestUI.csproj reference HelperLib/HelperLib.csproj
 ## Adding a package dappper
 cd HelperLib
 dotnet add package Dapper
+
+## To  run
+ctrl + shift + p
+.NET Generate Assets for Build and Debug
+or dotnet build
