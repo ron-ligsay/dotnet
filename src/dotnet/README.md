@@ -19,5 +19,14 @@ dotnet new console -f net7.0 --name "TestUI"
 # dotnet new classlib -f net7.0 --name "HelperLib"
 
 
-# dotnet sln ConfSln.sln add TestUI/TestUI.csproj
-# dotnet sln ConfSln.sln add HelperLib/HelperLib.csproj
+- dotnet sln ConfSln.sln add TestUI/TestUI.csproj
+
+- dotnet sln ConfSln.sln add HelperLib/HelperLib.csproj
+
+
+## Adding reference
+dotnet add TestUI/TestUI.csproj reference HelperLib/HelperLib.csproj
+
+## Adding a package dappper
+cd HelperLib
+dotnet add package Dapper
