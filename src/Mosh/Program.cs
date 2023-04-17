@@ -15,10 +15,10 @@ namespace Mosh
         {
             // See https://aka.ms/new-console-template for more information
             // Console.WriteLine("Hello, World!");
-            int Number = 1;
-            const float Pi = 3.14f;
-            byte b1 = 1;
-            int i1 = b1;
+            // int Number = 1;
+            // const float Pi = 3.14f;
+            // byte b1 = 1;
+            // int i1 = b1;
             // Console.WriteLine(Number + Pi + i1);
 
             // Naming Conventions
@@ -27,8 +27,8 @@ namespace Mosh
             // Underscore: first_name
             // Hungarian Notation: strFirstName
             // For constant: Pascal Case - MaxZoom
-            float number = 1.2f;
-            decimal number2 = 1.2m;
+            // float number = 1.2f;
+            // decimal number2 = 1.2m;
             // Console.WriteLine("Floath {0}, Decimal {1}", number, number2);
             // Non-Primitive Types
             // String
@@ -49,11 +49,11 @@ namespace Mosh
 
             // Scope
             {
-                byte a = 1;
+                // byte a = 1;
                 {
-                    byte b = 2;
+                    // byte b = 2;
                     {
-                        byte c = 3;
+                        // byte c = 3;
                         // a = 1 is accesible anywhere in the code block
                         // b = 2 is accesible anywhere inside a 
                         // c = 3 is accesible only here
@@ -63,17 +63,17 @@ namespace Mosh
             }
 
             // Console.WriteLine("Byte has a {0} to {1}", byte.MinValue, byte.MaxValue);
-            byte MinValue = 5;
-            byte MaxValue = 55;
+            // byte MinValue = 5;
+            // byte MaxValue = 55;
             // Console.WriteLine("My Byte has a {0} to {1}", MinValue, MaxValue);
 
 
-            var number5 = 1; // var is a type that is inferred by the compiler // It detects what  kind of variable it is
-            int count = 10;
-            float totalPrice = 20.93f;
-            char character = 'A';
-            string firstName = "Mosh";
-            bool isWorking = false;
+            // var number5 = 1; // var is a type that is inferred by the compiler // It detects what  kind of variable it is
+            // int count = 10;
+            // float totalPrice = 20.93f;
+            // char character = 'A';
+            // string firstName = "Mosh";
+            // bool isWorking = false;
 
             // Console.WriteLine(number5);
             // System.Console.WriteLine(count);
