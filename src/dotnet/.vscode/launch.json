@@ -14,8 +14,8 @@
             "args": [],
             "cwd": "${workspaceFolder}/TestUI",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "internalConsole",
-            "stopAtEntry": false
+            "console": "integratedTerminal",//internalConsole, external",
+            "stopAtEntry": false 
         },
         {
             "name": ".NET Core Attach",
