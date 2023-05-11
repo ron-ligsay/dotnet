@@ -1,2 +1,28 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using System;
+
+namespace OOPExample 
+{
+    class Program 
+    {
+        static void Main(string[] args) 
+        {
+            Console.WriteLine(" ");
+        }
+    }
+
+    // Reserved Key Words
+    public class A 
+    {
+        
+    }
+
+    public abstract class B 
+    {
+
+    }
+
+    public interface C 
+    {
+
+    }
+}
