@@ -1,12 +1,14 @@
 using System;
 
-namespace OOPExample 
+namespace Part_3_OOPExample 
 {
     class Program 
     {
         static void Main(string[] args) 
         {
-            Console.WriteLine(" ");
+            //Console.WriteLine(" ");
+            Laptop macbookAir = new MacbookAir();
+            Laptop asusZenbook = new AsusZenbook();
         }
     }
 
