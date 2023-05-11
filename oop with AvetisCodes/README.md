@@ -10,9 +10,13 @@ dotnet console
 restore project:
 dotnet restore
 
+Part 2
 
 ## 4 Main Pillars
 * Abstraction
 * Encapsulation
 * Inheritance
 * Polymorphism
+
+Part 3
+
