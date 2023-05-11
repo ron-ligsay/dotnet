@@ -7,10 +7,14 @@ public interface Laptop
         Console.WriteLine("Laptop is turning on...");
     }
 
+    void TurnOn (bool accessBIOS);
+
     void TurnOff()
     {
         Console.WriteLine("Laptop is turning off...");
     }
+
+    void TurnOff (bool accessBIOS);
 
     bool TouchScreen { get; }
 }

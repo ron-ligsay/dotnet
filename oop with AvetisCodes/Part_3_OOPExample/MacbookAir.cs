@@ -10,6 +10,19 @@ public class MacbookAir : Laptop
         Console.WriteLine("Macbook Air is turning off...");
     }
 
+    public void TurnOn(bool accessBIOS)
+    {
+        if(accessBIOS){
+            Console.WriteLine("Macbook Air is accessing BIOS...");
+        } else {
+            Console.WriteLine("Macbook Air is NOT accessing BIOS, just turning off...");
+        }
+    }
+
+    public void TurnOff(bool accessBIOS)
+    {
+        throw new NotImplementedException();
+    }
 }
 
 
