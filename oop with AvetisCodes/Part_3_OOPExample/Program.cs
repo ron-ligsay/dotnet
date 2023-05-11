@@ -7,6 +7,7 @@ namespace Part_3_OOPExample
         static void Main(string[] args) 
         {
             //Console.WriteLine(" ");
+            //Laptop laptop = new Laptop();
             Laptop macbookAir = new MacbookAir();
             Laptop asusZenbook = new AsusZenbook();
 
