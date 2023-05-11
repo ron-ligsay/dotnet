@@ -11,3 +11,8 @@ restore project:
 dotnet restore
 
 
+## 4 Main Pillars
+* Abstraction
+* Encapsulation
+* Inheritance
+* Polymorphism
