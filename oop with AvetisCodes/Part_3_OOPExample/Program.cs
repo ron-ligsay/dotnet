@@ -11,16 +11,22 @@ namespace Part_3_OOPExample
             Laptop macbookAir = new MacbookAir();
             Laptop asusZenbook = new AsusZenbook();
 
-            List<Laptop> laptops = new List<Laptop>() {new MacbookAir(),new AsusZenbook()};
+            //List<Laptop> laptops = new List<Laptop>() {new MacbookAir(),new AsusZenbook()};
 
-            foreach(var laptop in laptops){
-                laptop.TurnOn();
-                laptop.TurnOn(true);
-                laptop.TurnOff();
-            }
+            // foreach(var laptop in laptops){
+            //     laptop.TurnOn();
+            //     //laptop.TurnOn(true);
+            //     //laptop.TurnOff();
+            // }
 
-            Console.WriteLine("Macbook Air has touch screen: " + macbookAir.TouchScreen);
-            Console.WriteLine("Asus Zenbook has touch screen: " + asusZenbook.TouchScreen);
+            macbookAir.TurnOn();
+            asusZenbook.TurnOn();
+
+            Laptop macbookAir2 = new MacbookAir();
+            macbookAir2.TurnOn();  
+
+            //Console.WriteLine("Macbook Air has touch screen: " + macbookAir.TouchScreen);
+            //Console.WriteLine("Asus Zenbook has touch screen: " + asusZenbook.TouchScreen);
 
         }
     }

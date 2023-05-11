@@ -1,36 +1,43 @@
 using System;
 
-public interface Laptop
+
+public abstract class Laptop
 {
-    void TurnOn()
-    {
-        Console.WriteLine("Laptop is turning on...");
+    public abstract void TurnOn();
+
+    protected void PowerOnSelfTest(){
+        Console.WriteLine("Checking processors...");
+        Console.WriteLine("Checking system memory...");
+        Console.WriteLine("Checking network...");
+        Console.WriteLine("Checking USB...");
+        Console.WriteLine("Checking Bluetooth...");
     }
 
-    void TurnOn (bool accessBIOS);
+    // public abstract void TurnOff();
 
-    void TurnOff()
-    {
-        Console.WriteLine("Laptop is turning off...");
-    }
+    // public abstract void TurnOn(bool accessBIOS);
 
-    void TurnOff (bool accessBIOS);
+    // public abstract void TurnOff(bool accessBIOS);
 
-    bool TouchScreen { get; }
+    // public abstract bool TouchScreen { get; }
 }
 
 
-// public abstract class Laptop
+// public interface Laptop
 // {
-//     public virtual void TurnOn()
+//     void TurnOn()
 //     {
 //         Console.WriteLine("Laptop is turning on...");
 //     }
 
-//     public  void TurnOff()
+//     void TurnOn (bool accessBIOS);
+
+//     void TurnOff()
 //     {
 //         Console.WriteLine("Laptop is turning off...");
 //     }
 
-//     public abstract bool TouchScreen { get; }
+//     void TurnOff (bool accessBIOS);
+
+//     bool TouchScreen { get; }
 // }
