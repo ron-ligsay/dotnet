@@ -10,4 +10,5 @@ It is also known as **Early Binding** or **Compile Time Binding**.
 * Operator Overloading
     - Same operator with different parameters
 
-    
+### Dynamic / Runtime Polymorphism
+It is also known as **Late Binding** or **Runtime Binding**.
