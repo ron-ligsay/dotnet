@@ -12,3 +12,4 @@ It is also known as **Early Binding** or **Compile Time Binding**.
 
 ### Dynamic / Runtime Polymorphism
 It is also known as **Late Binding** or **Runtime Binding**.
+
