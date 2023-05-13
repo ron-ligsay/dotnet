@@ -43,43 +43,34 @@ namespace NumberGuesser
                         continue;
                     }
 
-                    }
-
-                    
                     // Match guess to correct number
                     if (guess != correctNumber) {
-                        // Change text color
-                        Console.ForegroundColor = ConsoleColor.Red;
-
-                        // Tell user it's the wrong number
-                        Console.WriteLine("Wrong number, please try again");
-
-                        // Reset text color
-                        Console.ResetColor();
+                        // Print error message
+                        PrintColorMessage(ConsoleColor.Red, "Wrong number, please try again");
                     }
 
+
                 }
+
+                    
+
+            
                 
-                Console.ForegroundColor = ConsoleColor.Yellow;
-
-
-                // Output success message
-                Console.WriteLine("You are CORRECT!!!");
-
-                // reset text color
-                Console.ResetColor();
+                PrintColorMessage(ConsoleColor.Yellow, "Correct, you guessed it!");
 
                 // ask to play again
                 Console.WriteLine("Play Again? [Y or N]");
                 // get answer
                 string answer = Console.ReadLine().ToUpper();
-
+                
+                
                 if(answer == "Y") {
                     continue;
-                } else if(answer == "N") {
+                } else if (answer == "N") {
                     return;
                 } else {
                     return;
+                }
             }
 
         }
