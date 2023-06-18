@@ -7,117 +7,170 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mosh
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // See https://aka.ms/new-console-template for more information
-            Console.WriteLine("Hello, World!");
-            int Number = 1;
-            const float Pi = 3.14f;
-            byte b1 = 1;
-            int i1 = b1;
-            Console.WriteLine(Number + Pi + i1);
-
-            // Naming Conventions
-            // Camel Case: firstName
-            // Pascal Case: FirstName
-            // Underscore: first_name
-            // Hungarian Notation: strFirstName
-            // For constant: Pascal Case - MaxZoom
-            float number = 1.2f;
-            decimal number2 = 1.2m;
-            Console.WriteLine("Floath {0}, Decimal {1}", number, number2);
-            // Non-Primitive Types
-            // String
-            // Array
-            // Enum
-            // Class
-
-            // Overflowing
-            //byte number3 = 255; //byte can only hold 0-255
-            //number3 = number3 + 1; // 0 because it overflows
-
-            // Using Checked
-            checked // Like try catch or exception
-            {
-                byte number4 = 255;
-                number4 = (byte)(number4 + 1);
-            } // will not happen
-
-            // Scope
-            {
-                byte a = 1;
-                {
-                    byte b = 2;
-                    {
-                        byte c = 3;
-                        // a = 1 is accesible anywhere in the code block
-                        // b = 2 is accesible anywhere inside a 
-                        // c = 3 is accesible only here
-                        Console.WriteLine("{0} {1} {2}", a, b, c);
-                    }
-                }
-            }
-
-            Console.WriteLine("Byte has a {0} to {1}", byte.MinValue, byte.MaxValue);
-            byte MinValue = 5;
-            byte MaxValue = 55;
-            Console.WriteLine("My Byte has a {0} to {1}", MinValue, MaxValue);
 
 
-            var number5 = 1; // var is a type that is inferred by the compiler // It detects what  kind of variable it is
-            int count = 10;
-            float totalPrice = 20.93f;
-            char character = 'A';
-            string firstName = "Mosh";
-            bool isWorking = false;
+namespace Mosh {
+    public interface IPerson {
+        string FirstName {get; set;}
+        string MiddleName {get; set;}
+        string LastName {get; set;}
+        string Gender {get; set;}
+    
+        string GetProfile();
+    }
 
-            Console.WriteLine(number5);
-            System.Console.WriteLine(count);
-            Console.WriteLine(totalPrice);
-            Console.WriteLine(character);
-            Console.WriteLine(firstName);
-            Console.WriteLine(isWorking);
+    public class Person: IPerson {
+        public string FirstName {get; set;}
+        public string MiddleName {get; set;}
+        public string LastName {get; set;}
+        public string Gender {get; set;}
+    
+        public Person (string fName, string lName, string mName, string gender){
+            FirstName = fName;
+            MiddleName = mName;
+            LastName = lName;
+            Gender = gender;
+        }
+    
+        public string GetProfile(){
+            return $"{FirstName}" + ", " + 
+                    $"{LastName}" + ", " +
+                    $"{MiddleName}" + ", " +
+                    $"{Gender}";
+        }
+    }
 
-            // // Constants
-
-            const float Pi = 3.14f;
-            Pi = 1; // Error because it is a constant
-
-            // Implicit Type  Conversion
-            byte b = 1;       //                            00000001
-            int i = b;        // 00000000 00000000 00000000 00000001
-
-            // Explicit Type Conversion
-            int i = 1;
-            byte b = i; // Error because byte can only hold 0-255 // wont compile
-            // byte has a range of 0-255 // Data will be lost // It has to be explicit
-            byte b = (byte)i; // Casting
-
-            // another example
-            float f = 1.0f;
-            int i = (int)f; // 1
-
-            // Non-compatible types
-            string s = "1";
-            int i = (int)s; // not compatible
-            int i = Convert.ToInt32(s); // using convert
-            int j = int.Parse(s); // using parse, it tries to convert it
-
-            // Convert
-            try {
-                int i = 1;
-                byte b = (byte)i;
-                Console.WriteLine(b);
-            }
-            catch (Exception) {
-                Console.WriteLine("The number could not be converted to a byte.");
-            }
-
+    class sampleProgram {
+        static void Main (string[] args) {
+            Person myPerson = new Person ("Jose Luis", "Nido", "Arambulo", "Male");
+            Console.WriteLine(myPerson.GetProfile());
         }
     }
 }
+
+
+// namespace Mosh
+// {
+//     public interface IPerson
+//     {
+//         string FirstName { get; set; }
+//         string LastName { get; set; }
+//         string MiddleName { get; set; }
+//         string Gender { get; set; }
+
+//         string GetProfile();
+//     }
+
+//     // Create a public class Person and implement IPerson
+//     public class Person : IPerson
+//     {
+//         private string firstName;
+//         private string lastName;
+//         private string middleName;
+//         private string gender;
+
+//         public Person(string firstName, string lastName, string middleName, string gender)
+//         {
+//             this.firstName = firstName;
+//             this.lastName = lastName;
+//             this.middleName = middleName;
+//             this.gender = gender;
+//         }
+
+//         public string FirstName
+//         {
+//             get { return firstName; }
+//             set { firstName = value; }
+//         }
+
+//         public string LastName
+//         {
+//             get { return lastName; }
+//             set { lastName = value; }
+//         }
+
+//         public string MiddleName
+//         {
+//             get { return middleName; }
+//             set { middleName = value; }
+//         }
+
+//         public string Gender
+//         {
+//             get { return gender; }
+//             set { gender = value; }
+//         }
+
+//         public string GetProfile()
+//         {
+//             return $"FirstName: {firstName}, LastName: {lastName}, MiddleName: {middleName}, Gender: {gender}";
+//         }
+
+        
+//     }
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Person person = new Person("Aron", "Ligsay", "A", "Male");
+//             Console.WriteLine(person.GetProfile());
+//         }
+//     }
+
+// }
+
+
+// namespace Mosh
+// {
+//     interface IPerson
+//     {
+//         public string FirstName { get; set; }
+//         public string LastName { get; set; }
+//         public string MiddleName { get; set; }
+//         public string Gender { get; set; }
+
+
+//         public void GetProfile();
+//     }
+
+//     class Person : IPerson
+//     {
+//         private string firstName;
+//         private string lastName;
+//         private string middleName;
+//         private string gender;
+        
+//         public string FirstName { get { return FirstName; } set { FirstName = value; } }
+//         public string LastName { get { return LastName; } set { LastName = value; } }
+//         public string MiddleName { get { return MiddleName; } set { MiddleName = value; } }
+//         public string Gender { get { return Gender; } set { Gender = value; } }
+
+
+//         public Person(string firstName, string lastName, string middleName, string gender)
+//         {
+//             this.firstName = firstName;
+//             this.lastName = lastName;
+//             this.middleName = middleName;
+//             this.gender = gender;
+//         }
+
+//         public string GetProfile() {
+//             return $"FirstName: {firstName}, LastName: {lastName}, MiddleName: {middleName},Gender: {gender}" ;
+//         }
+
+//         void IPerson.GetProfile()
+//         {
+//             throw new NotImplementedException();
+//         }
+//     }
+    
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Person person = new Person("Aron Kurt Yuan", "Ligsay", "A", "Male");
+//             Console.WriteLine(person.GetProfile());
+//         }
+//     }
+// }
     
